@@ -25,7 +25,6 @@ body {
   background-image: url("./assets/bg-main-mobile.png");
   background-position: top -240px right -240px;
   background-repeat: no-repeat;
-  width: 100vw;
 }
 
 header {
@@ -193,4 +192,88 @@ footer p span {
 svg:hover,
 li:target {
   fill: #fa7453;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("./assets/bg-main-tablet.png"), url("./assets/bg-pattern-1.svg");
+    background-position: top -80px right -50px;
+  }
+
+  header {
+    margin-left: 40px;
+    margin-top: 60px;
+  }
+
+  .container {
+    margin: 0 40px;
+  }
+
+  .hero {
+    margin-top: 90px;
+    max-width: 520px;
+  }
+
+  .hero__section-title {
+    width: 100%;
+    line-height: 100%;
+    font-size: 64px;
+    letter-spacing: -0.527px;
+    margin-bottom: 28px;
+    margin-top: 95px;
+  }
+
+  .hero__section-text {
+    font-size: 18px;
+    width: 99%;
+    margin-bottom: 160px;
+  }
+
+  .navy__container {
+    position: relative;
+    margin: 0 33px;
+    height: 600px;
+    background-size: auto;
+    background-position: 240px -60px;
+  }
+  .illustration {
+    min-width: 270px;
+    position: absolute;
+    left: 64px;
+    top: -90px;
+  }
+  .features {
+    margin-top: 260px;
+  }
+
+  .orange__container {
+    position: absolute;
+    max-width: 400px;
+    right: 80px;
+    bottom: -430px;
+    /* display: none; */
+  }
+
+  footer.footer {
+    margin: 100px 40px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: space-between;
+  }
+  .footer__logo {
+    width: 200px;
+  }
+
+  .footer__text-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer p {
+    display: inline;
+    max-width: 366px;
+    margin-bottom: 0;
+  }
 }
