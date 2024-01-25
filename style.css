@@ -127,6 +127,13 @@ header {
   border-radius: 12px;
 }
 
+.ios-btn:hover {
+  background-color: #66e2dc;
+}
+
+.android-btn:hover {
+  background-color: #ffb964;
+}
 .price {
   font-size: 65px;
   font-weight: 700;
