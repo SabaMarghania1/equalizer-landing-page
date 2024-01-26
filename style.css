@@ -204,7 +204,7 @@ li:target {
 @media (min-width: 768px) {
   body {
     background-image: url("./assets/bg-main-tablet.png"), url("./assets/bg-pattern-1.svg");
-    background-position: top -60px right -50px;
+    background-position: top -60px right -50px, top -60px right 60px;
   }
 
   header {
@@ -242,6 +242,7 @@ li:target {
     width: 696px;
     background-size: auto;
     background-position: 240px -60px;
+    margin: 0 auto;
   }
   .illustration {
     min-width: 270px;
@@ -284,7 +285,7 @@ li:target {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
   body {
     background-image: url("./assets/bg-main-desktop.png"), url("/assets/bg-pattern-1.svg");
   }
@@ -299,7 +300,7 @@ li:target {
 
   .navy__container {
     margin: 0 160px;
-    background-position: 220px -40px;
+    background-position: center top 0;
     width: 1120px;
   }
 
@@ -323,7 +324,7 @@ li:target {
 
   .orange__container {
     top: 140px;
-    left: 470px;
+    left: 570px;
   }
   .features__title {
     margin-bottom: 22px;
