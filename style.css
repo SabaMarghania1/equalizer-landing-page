@@ -197,7 +197,8 @@ li:target {
 @media (min-width: 768px) {
   body {
     background-image: url("./assets/bg-main-tablet.png"), url("./assets/bg-pattern-1.svg");
-    background-position: top -80px right -50px;
+
+    background-position: top -30px right -50px;
   }
 
   header {
@@ -275,5 +276,50 @@ li:target {
     display: inline;
     max-width: 366px;
     margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url("./assets/bg-main-desktop.png"), url("/assets/bg-pattern-1.svg");
+  }
+
+  .header {
+    margin: 62px 160px;
+  }
+
+  .container {
+    margin: 0 160px;
+  }
+
+  .navy__container {
+    margin: 0 160px;
+    background-position: 220px -40px;
+  }
+
+  .hero {
+    max-width: 1020px;
+  }
+
+  .hero h1 {
+    font-size: 88px;
+  }
+
+  .hero__section-text {
+    max-width: 825px;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  .orange__container {
+    left: 600px;
+    bottom: -380px;
+  }
+  .features__title {
+    margin-bottom: 22px;
+  }
+
+  footer.footer {
+    margin: 100px 160px;
   }
 }
